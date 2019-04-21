@@ -1,0 +1,36 @@
+﻿生成启动时间为 2017/5/9 14:30:46。
+     1>项目“D:\cocos2d-x-2.2.6\projects\plane3\proj.win32\plane3.vcxproj”在节点 4 上(Build 个目标)。
+     1>PreLinkEvent:
+         if not exist "D:\cocos2d-x-2.2.6\projects\plane3\proj.win32\Debug.win32\" mkdir "D:\cocos2d-x-2.2.6\projects\plane3\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\cocos2d-x-2.2.6\projects\plane3\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "D:\cocos2d-x-2.2.6\projects\plane3\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\cocos2d-x-2.2.6\projects\plane3\proj.win32\Debug.win32\plane3.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\cocos2d-x-2.2.6\projects\plane3\proj.win32\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\cocos2d-x-2.2.6\projects\plane3\proj.win32\Debug.win32\plane3.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\cocos2d-x-2.2.6\projects\plane3\proj.win32\Debug.win32\plane3.lib" /MACHINE:X86 /SAFESEH Debug.win32\AI.obj
+         Debug.win32\AppDelegate.obj
+         Debug.win32\BackMusic.obj
+         Debug.win32\Bullet.obj
+         Debug.win32\Enemy.obj
+         Debug.win32\Hero.obj
+         Debug.win32\QuitDialog.obj
+         Debug.win32\SceneAbout.obj
+         Debug.win32\SceneGame.obj
+         Debug.win32\SceneMenu.obj
+         Debug.win32\SceneScore.obj
+         Debug.win32\SceneScore_get.obj
+         Debug.win32\SceneStart.obj
+         Debug.win32\ScrollBackground.obj
+         Debug.win32\shootBullets.obj
+         Debug.win32\main.obj
+         "D:\cocos2d-x-2.2.6\projects\plane3\proj.win32\Debug.win32\libcocos2d.lib"
+         "D:\cocos2d-x-2.2.6\projects\plane3\proj.win32\Debug.win32\libCocosDenshion.lib"
+         "D:\cocos2d-x-2.2.6\projects\plane3\proj.win32\Debug.win32\libExtensions.lib"
+         "D:\cocos2d-x-2.2.6\projects\plane3\proj.win32\Debug.win32\libBox2D.lib"
+         "D:\cocos2d-x-2.2.6\projects\plane3\proj.win32\Debug.win32\libchipmunk.lib"
+     1>AI.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         plane3.vcxproj -> D:\cocos2d-x-2.2.6\projects\plane3\proj.win32\Debug.win32\plane3.exe
+     1>已完成生成项目“D:\cocos2d-x-2.2.6\projects\plane3\proj.win32\plane3.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.21
